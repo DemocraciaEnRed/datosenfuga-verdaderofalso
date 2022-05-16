@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Logo from "../logo";
+import Logo from "../logo2";
 import "./index.css";
 
 const Countdown = ({ setIsLoading }) => {
@@ -16,7 +16,7 @@ const Countdown = ({ setIsLoading }) => {
     4: "4BD6F7",
     3: "F7A334",
     2: "32F991",
-    1: "9F47FC"
+    1: "FB2D11"
   };
   
 

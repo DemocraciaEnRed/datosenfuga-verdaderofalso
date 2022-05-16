@@ -3,12 +3,12 @@ import { Button } from "react-bootstrap";
 import _ from "lodash";
 import WithBackground from "../withBackground";
 import WithFooter from "../withFooter";
-import Background from '../../images/roundBackground.svg';
+import Background from '../../images/roundBackground.png';
 import FirstLoading from '../../images/firstLoadingBackground.svg';
 import SecondLoading from '../../images/secondLoadingBackground.svg';
 import ThirdLoading from '../../images/thirdLoadingBackground.svg';
-import Logo from "../logo";
-import { ReactComponent as IconSvg } from '../../images/meRepresentaIcon.svg';
+import Logo from "../logo2";
+import { ReactComponent as IconSvg } from '../../images/datosEnFugaIcon.svg';
 import Progress from '../progress';
 import Separator from '../separator';
 import { ReactComponent as Bad } from '../../images/scoreMemes/bad.svg';
@@ -93,12 +93,12 @@ const Score = ({ score, total, setPlayAgain }) => {
               <div className="col-10">
                 <p className="score-description">{_.toUpper(description)}</p>
                 { secondayDescription && <p className="score-secondary-description">{_.toUpper(secondayDescription)}</p> }
-                <p className="score-more-info">PARA SABER MÁS SOBRE LAS CANDIDATURAS Y LAS PROPUESTAS ENTRÁ A #MEREPRESENTA</p>
+                <p className="score-more-info">PARA SABER MÁS SOBRE LAS CANDIDATURAS Y LAS PROPUESTAS ENTRÁ A #DatosEnFuga</p>
               </div>
               <Button className="col-md-3 col-sm-4 col-10 play-again" variant="outline-light" onClick={setPlayAgain}>VOLVER A JUGAR</Button>
               <p>o</p>
               <p className="more-info">Encontrá más info sobre las elecciones en: </p>
-              <Button target="_blank" href="https://merepresenta.info/" className="col-md-3 col-sm-4 col-10 merepresenta-button" variant="light">#MEREPRESENTA</Button>
+              <Button target="_blank" href="https://datosenfuga.info/" className="col-md-3 col-sm-4 col-10 datosenfuga-button" variant="light">#DatosEnFuga</Button>
               <p>Para conocer lo que hacemos seguinos en:</p>
               <a href="https://www.instagram.com/democraciaenred" target="_blank">
                 <InstagramLogo alt="instagram" />

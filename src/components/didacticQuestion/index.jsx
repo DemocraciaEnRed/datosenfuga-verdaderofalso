@@ -4,7 +4,7 @@ import '../../App.css';
 import Question from "../question";
 import DidacticModal from "../didacticModal";
 import Topic from "../topic";
-import Logo from "../logo";
+import Logo from "../logo2";
 import "./index.css";
 import WithFooter from "../withFooter";
 import Progress from "../progress";

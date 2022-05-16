@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import _ from "lodash";
 import DicaticQuestion from "../didacticQuestion";
-import Background from '../../images/roundBackground.svg';
+import Background from '../../images/roundBackground.png';
 import WithBackground from "../withBackground";
 import Countdown from "../countdown";
 import Score from "../score";

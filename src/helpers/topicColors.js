@@ -1,1 +1,1 @@
-export default [ "FB2D11", "4BD6F7", "9F47FC" ];
+export default [ "FB2D11", "4BD6F7", "FB2D11" ];
